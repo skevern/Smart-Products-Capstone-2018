@@ -3,6 +3,10 @@
 # ME 5194															   #
 # Kivy Test Script													   #
 #----------------------------------------------------------------------#
+
+import os
+os.environ['KIVY_GL_BACKEND'] = 'gl'
+os.environ['KIVY_WINDOW'] = 'sdl2'
 import kivy
 kivy.require('1.10.1')
 
